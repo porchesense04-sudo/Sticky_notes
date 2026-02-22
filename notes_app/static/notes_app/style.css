@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* soft pink */
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff3399;
+}
+
+.notes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.note {
+    background-color: #ff99cc;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    width: calc(50% - 15px);
+    box-sizing: border-box;
+}
+
+a.button, a.edit, a.delete, button {
+    display: inline-block;
+    margin: 5px 0;
+    color: white;
+    background-color: #ff3399;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, a.button:hover, a.edit:hover, a.delete:hover {
+    background-color: #ff66aa;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ff99cc;
+}
